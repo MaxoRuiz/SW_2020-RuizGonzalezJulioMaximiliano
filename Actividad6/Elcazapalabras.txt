@@ -1,0 +1,6 @@
+(?<![A-Za-zá-úÑñ])[R|r]egex(?![A-Za-zá-úÑñ])
+
+regex es algo genial. Hola soy un texto random que tiene la palabra 
+"regex" 'regex' "regex cool" escondida escondiregexda gracias a mi 
+Regex, es posible regexpoderoso esto regex, y [Regex] mira (regex 
+es curioso) (regex es curioso] jajaja mi dedo Regex. O Regex
