@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ingresar datos</title>
+  </head>
+  <body>
+    <h1>Ingrese sus datos Profesor@/Funcionari@</h1>
+      <form class="formulario" action="../dynamics/Verificacion.php" method="post">
+        Primer Nombre/Único Nombre:<input type="text" name="Nombre" value="" required pattern="^[A-Za-zá-úÑñ]+$"><br><br>
+        Seguno Nombre:<input type="text" name="NombreS" value="" pattern="^[A-Za-zá-úÑñ]+$"
+                             placeholder="Este campo no es necesario"><br><br>
+        Apellido Paterno:<input type="text" name="Ape_P" value="" required pattern="^[A-Za-zá-úÑñ]+$"><br><br>
+        Apellido Materno:<input type="text" name="Ape_M" value="" required pattern="^[A-Za-zá-úÑñ]+$"><br><br>
+        Fecha de Nacimiento:<input type="text" name="Fecha" value="" placeholder="Dividida con guiones" required
+                                   pattern="^([0-9]{2}-[0-9]{2}-[0-9]{4})$"><br><br>
+        Usuario:<input type="text" name="RFC" value="" placeholder="Es la RFC" required pattern="^([A-Z]{4})([0-9]{6})([A-Z0-9]{3})$"><br><br>
+        Contraseña:<input type="password" name="Contraseña" value="" placeholder="8 caracteres" required pattern="^[A-Za-z0-9$\&]{8}$"><br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+      </form>
+  </body>
+</html>
